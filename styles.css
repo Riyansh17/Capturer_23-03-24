@@ -177,7 +177,7 @@ nav {
 }
 
 .portfolio__card:nth-child(1)::after {
-  content: "Portraits";
+  content: "Mehndi";
 }
 
 .portfolio__card:nth-child(2)::after {
@@ -185,7 +185,7 @@ nav {
 }
 
 .portfolio__card:nth-child(3)::after {
-  content: "Fashions";
+  content: "Baraat";
 }
 
 .portfolio__content {
@@ -278,7 +278,9 @@ nav {
 }
 
 .client__card img {
-  max-width: 120px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
   margin-inline: auto;
   margin-bottom: 2rem;
   border-radius: 100%;
@@ -310,6 +312,7 @@ nav {
 
 .gallery__grid img {
   transition: 0.3s;
+  height: -webkit-fill-available;
 }
 
 .gallery__grid:hover img:not(:hover) {
@@ -377,6 +380,7 @@ nav {
 
 .instagram__flex img {
   max-width: 135px;
+  max-height: 135px;
 }
 
 @keyframes scroll {
